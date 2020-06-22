@@ -1,0 +1,466 @@
+<html>
+<head>
+<style>
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+</style>
+</head>
+<body>
+
+<h1>SUNY Ulster Vet Tech</h1><br>
+
+<h3>Last Name, First Name</h3>
+
+<p>UNumber:         XXXXXXXX<br>
+   Skills Completed:  XXX<br>
+   Entry Date:      XX/XX<br>
+   Graduation Date: XX/XX<br>
+</p>
+
+<button class="accordion">VTS 101</button>
+<div class="panel">
+ <form action="">
+  <table>
+  <tr>
+    <th>Chapter/ Sub Chapter</th>
+    <th>Skill Number</th>
+    <th>Essential Skills</th>
+    <th>Hands On/ Group/ or Didactic Skill</th>
+    <th>Date</th>
+    <th>Instructor's Name</th>
+    <th>Instructor's Assessment</th>
+    <th>Signature</th>
+  </tr>
+  
+  
+  <tr>
+   
+	<td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    <td>
+		 <input type="date" name="Date">
+	</td>
+	<td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+  </tr>
+  <tr>
+    <td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    
+    <td>
+		 <input type="date" name="Date">
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+		</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+  </tr>
+  
+  <tr>
+    <td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    
+    <td>
+		 <input type="date" name="Date">
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+		</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+	
+  </tr>
+  
+  <tr>
+    <td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    
+    <td>
+		 <input type="date" name="Date">
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+		</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+    
+  </tr>
+  <tr>
+    <td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    
+    <td>
+		 <input type="date" name="Date">
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+		</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+    
+  </tr>
+  <tr>
+    <td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    
+    <td>
+		 <input type="date" name="Date">
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+		</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+    
+  </tr>
+  
+</table>
+<input type="submit">
+</form>
+</div>
+
+<button class="accordion">VTS 102</button>
+<div class="panel">
+ <form action="">
+  <table>
+  <tr>
+    <th>Chapter/ Sub Chapter</th>
+    <th>Skill Number</th>
+    <th>Essential Skills</th>
+    <th>Hands On/ Group/ or Didactic Skill</th>
+    <th>Date</th>
+    <th>Instructor's Name</th>
+    <th>Instructor's Assessment</th>
+    <th>Signature</th>
+  </tr>
+  
+  
+  <tr>
+   
+	<td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    <td>
+		 <input type="date" name="Date">
+	</td>
+	<td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+  </tr>
+  <tr>
+    <td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    
+    <td>
+		 <input type="date" name="Date">
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+		</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+  </tr>
+  
+  <tr>
+    <td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    
+    <td>
+		 <input type="date" name="Date">
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+		</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+	
+  </tr>
+  
+  <tr>
+    <td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    
+    <td>
+		 <input type="date" name="Date">
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+		</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+    
+  </tr>
+  <tr>
+    <td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    
+    <td>
+		 <input type="date" name="Date">
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+		</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+    
+  </tr>
+  <tr>
+    <td>Ch 1, 12</td>
+    <td>2</td>
+    <td>
+		Sample text for essential skills column. Mostly just to see how it formats when
+		text is entered here.  
+	</td>
+    <td>Hands On</td>
+    
+    <td>
+		 <input type="date" name="Date">
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+		</td>
+    <td>
+		<select>
+			<option value="Assessment1">1</option>
+			<option value="Assessment2">2</option>
+			<option value="Assessment3">3</option>
+			<option value="Assessment4">4</option>
+		</select>
+	</td>
+    <td>
+		<input type="text" name="Signature" maxlength="25">
+	</td>
+    
+  </tr>
+  
+</table>
+<input type="submit">
+</form>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+</body>
+</html>
