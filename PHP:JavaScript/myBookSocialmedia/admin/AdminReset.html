@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<header>
+
+</header>
+<body>
+<script>
+var oneDay = 24*60*60*1000;
+
+var initailizedatedays = new Date();
+var initailizedatemonths= new Date();
+
+
+
+
+function main(){
+i=0
+while(i=0){
+days();
+months();
+
+}
+
+}
+
+
+
+function days(){
+    
+    do{
+var SecondDate = new date();
+var difference = Math.round(Math.abs((initailizedate.getTime()-SecondDate.getTime())/(oneDay)));
+if(difference == 1 || difference>1){
+//delete days block in server
+$(document).ready(function() {
+
+$.ajax({
+
+        type: "POST",
+        url: "api/days",
+        processData: false,
+        contentType: "application/json",
+        data: '',
+        success: function(r) {
+            echo(r);
+        },
+                                
+         error: function(r) {
+        console.log(r)
+   }
+        
+})
+})
+}
+}while(difference<7)
+weeks();
+}
+
+
+
+
+function weeks(){
+ initailizedatedays = new Date();
+ // delete weeks block
+ $(document).ready(function() {
+
+$.ajax({
+
+        type: "POST",
+        url: "api/weeks",
+        processData: false,
+        contentType: "application/json",
+        data: '',
+        success: function(r) {
+            echo(r);
+        },
+                                
+         error: function(r) {
+        console.log(r)
+   }
+        
+})
+})
+
+
+
+} 
+
+
+
+
+function months(){
+    var initailizedatemonths2= new Date();
+
+if (initailizedatemonths.getMonth != initailizedatemonths2.getMonth){
+   //delete months block
+    $(document).ready(function() {
+
+$.ajax({
+
+        type: "POST",
+        url: "api/months",
+        processData: false,
+        contentType: "application/json",
+        data: '',
+        success: function(r) {
+            echo(r);
+        },
+                                
+         error: function(r) {
+        console.log(r)
+   }
+        
+})
+})
+initailizedatedays = new Date();
+initailizedatemonths = new Date();
+
+}
+
+main();
+}
+
+
+</script>
+
+
+
+</body>
