@@ -38,6 +38,17 @@ public class Stratigy {
         System.out.println("Enter your second card: ");
         PlayerCard2 = input.next();
 
+
+        if(DealerCard.equals("a")){
+            DealerCard = DealerCard.toUpperCase();
+        }
+        if(PlayerCard1.equals("a")){
+            PlayerCard1 = PlayerCard1.toUpperCase();
+        }
+        if(PlayerCard2.equals("a")){
+            PlayerCard2 = PlayerCard2.toUpperCase();
+        }
+
 // set values for kings and queens
         if (PlayerCard1.equals("J") || PlayerCard1.equals("Q") || PlayerCard1.equals("K") || PlayerCard1.equals("j") || PlayerCard1.equals("q") || PlayerCard1.equals("k")) {
             PlayerCard1 = "10";
